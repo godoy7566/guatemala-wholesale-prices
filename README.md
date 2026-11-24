@@ -1,5 +1,7 @@
 # Agricultural wholesale price tracker (Guatemala)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([YOUR_APP_URL](https://guatemala-wholesale-prices-h57fce9mefpasjldswvn7i.streamlit.app/))
+
 A Python data pipeline and Streamlit dashboard for weekly agricultural wholesale prices published in Guatemala. The pipeline downloads weekly PDF reports, extracts dated price tables, standardizes product names, and creates two Parquet datasets used by the dashboard.
 
 **Source:** [MAGA weekly price reports](https://precios.maga.gob.gt/informes/semanales/). This is an independent project, not an official MAGA product. Prices and measurement units are preserved as published, without currency or unit conversion.
